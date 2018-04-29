@@ -1,0 +1,24 @@
+docker rm modest_wright
+docker rm boring_meninsky
+docker rm objective_lewin
+docker rm epic_knuth
+docker rm cocky_engelbart
+docker rm brave_ardinghelli
+docker rm pensive_mestorf
+docker rm fervent_poitras
+docker rm kind_lichterman
+docker rm zen_rosalind
+docker rm gifted_neumann
+docker rm dazzling_hawking
+docker rm boring_cray
+docker rm trusting_wilson
+docker rm sharp_kowalevski
+docker rm suspicious_panini
+docker rm cranky_swartz
+docker rm gallant_heyrovsky
+docker rm gifted_brahmagupta
+docker rm hardcore_joliot
+docker rm youthful_bardeen
+docker rm friendly_dijkstra
+docker rm hopeful_murdock
+"]"
