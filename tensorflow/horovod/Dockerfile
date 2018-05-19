@@ -20,6 +20,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
         ca-certificates \
         libjpeg-dev \
         libpng-dev \
+        sudo \
         python$PYTHON_VERSION \
         python$PYTHON_VERSION-dev
 
@@ -76,3 +77,9 @@ RUN cat /etc/ssh/ssh_config | grep -v StrictHostKeyChecking > /etc/ssh/ssh_confi
 
 # Download examples
 RUN cd && git clone https://github.com/uber/horovod.git
+
+# user
+RUN groupadd -g 1000 walter seradd -u 1000 -m walter &&  gpasswd -a walter sudo && \
+    echo 'walter\nwalter' | passwd
+
+USER walter
